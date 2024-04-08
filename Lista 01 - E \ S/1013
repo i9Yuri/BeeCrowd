@@ -1,0 +1,9 @@
+a, b, c = list(map(int, input().split()))
+
+maiorab = (a+b+abs(a-b))/2
+maiorac = (a+c+abs(a-c))/2
+
+if maiorab > maiorac:
+    print(f'{maiorab:.0f} eh o maior')
+else:
+    print(f'{maiorac:.0f} eh o maior')
