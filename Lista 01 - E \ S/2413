@@ -1,0 +1,8 @@
+#pessoas que clicaram no terceiro link da busca
+t = int(input())
+#pessoas que clicam no segundo link
+cliques_link2 = 2*t
+#número de pessoas que clicam no primeiro link
+cliques_link1 = cliques_link2*2
+
+print(cliques_link1)
