@@ -1,0 +1,30 @@
+pi = 3.14159
+a, b, c = list(map(float, input().split()))
+
+#triangle
+
+triangle_area = (a*c)/2
+
+#circle area
+
+circle_area = pi*(c**2)
+
+#trapezium area
+
+trapezium_area= (a+b)*c/2
+
+#square area
+
+square_area = b**2
+
+#rectangle area
+
+rectangle_area = a*b
+
+#PRINTING
+
+print(f'TRIANGULO: {triangle_area:.3f}')
+print(f'CIRCULO: {circle_area:.3f}')
+print(f'TRAPEZIO: {trapezium_area:.3f}')
+print(f'QUADRADO: {square_area:.3f}')
+print(f'RETANGULO: {rectangle_area:.3f}')
