@@ -1,0 +1,6 @@
+#c = número de metros que Leonardo pretende correr em metros
+#n = comprimento da pista.
+c, n = list(map(float, input().split()))
+#a = ponto de termino
+a = c%n
+print(int(a))
