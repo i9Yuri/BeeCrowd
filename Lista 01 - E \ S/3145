@@ -1,0 +1,10 @@
+# N = number of dwarves that Gandalf managed to help
+# X = distance from Vila dos Hobbits to the Lonely Mountain
+
+N, X = map(int, input().split())
+
+Total_people = N + 2
+
+Days = X / Total_people 
+
+print(f'{Days:.2f}')
