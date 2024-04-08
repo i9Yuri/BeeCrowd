@@ -1,0 +1,8 @@
+R = float(input())
+
+
+π = 3.14159
+Y = R**2
+A = π*Y
+
+print(f"A={A:.4f}")
