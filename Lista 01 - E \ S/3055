@@ -1,0 +1,7 @@
+#a = nota de uma prova
+#m =  média entre as duas notas das provas
+a = int(input())
+m = int(input())
+#b =  nota da segunda prova
+b = 2 * m - a
+print(b)
