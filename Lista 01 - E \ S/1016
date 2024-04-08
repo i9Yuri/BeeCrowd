@@ -1,0 +1,10 @@
+#car x speed km/h
+x = 60
+#car y speed km/h
+y = 90
+
+z = int(input())
+
+z = z*2
+
+print(str(z) + ' minutos')
