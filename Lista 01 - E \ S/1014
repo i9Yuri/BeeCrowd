@@ -1,0 +1,6 @@
+DISTANCE = int(input())
+FUEL_SPENT = float(input())
+
+AVG = DISTANCE / FUEL_SPENT
+
+print(f'{AVG:.3f}' + ' km/l')
