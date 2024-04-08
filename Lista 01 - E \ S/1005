@@ -1,0 +1,9 @@
+A = float(input())
+B = float(input())
+
+A = A*3.5
+B = B*7.5
+
+avarage = (A+B) / 11
+
+print(f'MEDIA = {avarage:.5f}')
