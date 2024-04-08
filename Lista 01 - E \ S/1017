@@ -1,0 +1,8 @@
+AVG_SPEED = float(input())
+SPENT_TIME = float(input())
+
+DISTANCE = AVG_SPEED * SPENT_TIME
+
+LITERS_NEEDED = DISTANCE / 12
+
+print(f'{LITERS_NEEDED:.3f}')
