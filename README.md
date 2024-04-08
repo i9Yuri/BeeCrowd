@@ -1,38 +1,34 @@
 ## README
 
-**Bem-vindo ao meu repositório Beecrowd!**
+**Welcome to my Beecrowd repository!**
 
-Este repositório contém minhas resoluções para as questões das listas do Beecrowd que meu professor da faculdade montou. 
+This repository contains my solutions to the problems from the Beecrowd lists that my college professor created.
 
-**O que você encontrará aqui:**
+**What you will find here:**
 
-* Soluções para as questões das listas do Beecrowd em Python.
-* Cada pasta corresponde a uma lista específica do Beecrowd.
-* Os arquivos dentro de cada pasta são nomeados de acordo com o número da questão.
-* Cada arquivo contém o código Python da minha solução para a questão.
+* Solutions to the problems from the Beecrowd lists in Python.
+* Each folder corresponds to a specific Beecrowd list.
+* The files inside each folder are named according to the problem number.
+* Each file contains the Python code for my solution to the problem.
 
-**Como usar este repositório:**
+**How to use this repository:**
 
-* Se você está com dificuldades em uma questão específica do Beecrowd, pode verificar a minha solução neste repositório.
-* Você também pode usar este repositório como um ponto de partida para aprender como resolver problemas de programação em Python.
-* Sinta-se à vontade para me enviar uma mensagem se tiver alguma dúvida sobre as minhas soluções ou se precisar de ajuda com uma questão específica do Beecrowd.
+* If you are struggling with a specific Beecrowd problem, you can check my solution in this repository.
+* You can also use this repository as a starting point to learn how to solve programming problems in Python.
+* Feel free to send me a message if you have any questions about my solutions or if you need help with a specific Beecrowd problem.
 
-**Observações:**
+**Notes:**
 
-* Este repositório ainda está em desenvolvimento, portanto, nem todas as listas do Beecrowd podem estar representadas.
-* As minhas soluções podem não ser as melhores ou mais eficientes, mas espero que sejam úteis para você.
+* This repository is still under development, so not all Beecrowd lists may be represented.
+* My solutions may not be the best or most efficient, but I hope they are helpful to you.
 
-**Obrigado por visitar meu repositório!**
+**Thanks for visiting my repository!**
 
-**Links úteis:**
+**Useful links:**
 
 * Beecrowd: [https://www.beecrowd.com.br/](https://www.beecrowd.com.br/)
 * Python: [https://www.python.org/](https://www.python.org/)
 
-**Contribuindo:**
+**Contributing:**
 
-Se você quiser contribuir para este repositório, sinta-se à vontade para enviar um pull request.
-
-**Agradecimentos:**
-
-Agradeço ao meu professor por me fornecer as listas do Beecrowd e por me ajudar a aprender como resolver problemas de programação em Python.
+If you want to contribute to this repository, feel free to send a pull request.
