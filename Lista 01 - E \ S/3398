@@ -1,0 +1,6 @@
+m = float(input())
+n = int(input())
+
+valor = n*m
+
+print(f'{valor:.2f}')
