@@ -1,0 +1,21 @@
+a,b,c,d = list(map(float,input().split()))
+
+avarage = ((a*2) + (b*3) + (c*4) + (d*1)) / 10
+
+print(f'Media: {avarage:.1f}')
+
+if avarage >= 7:
+    print('Aluno aprovado.')
+elif avarage < 5:
+    print('Aluno reprovado.')
+elif avarage >= 5 and avarage <= 6.9:
+    print('Aluno em exame.')
+    nota_exame = float(input())
+    print(f'Nota do exame: {nota_exame:.1f}')
+    new_avarage = (nota_exame + avarage) / 2
+    
+    if new_avarage >= 5:
+        print('Aluno aprovado.')
+        print(f'Media final: {new_avarage:.1f}')
+    elif new_avarage <= 4.9:
+        print('Aluno reprovado.')
