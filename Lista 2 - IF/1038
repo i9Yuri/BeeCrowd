@@ -1,0 +1,15 @@
+code, amount = list(map(int,input().split()))
+total = 0
+
+if code == 1:
+    total = amount * 4
+elif code == 2:
+    total = amount * 4.5
+elif code == 3:
+    total = amount * 5
+elif code == 4:
+    total = amount * 2
+elif code == 5:
+    total = amount * 1.5
+
+print(f'Total: R$ {total:.2f}')
