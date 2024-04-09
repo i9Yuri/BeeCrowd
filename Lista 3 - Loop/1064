@@ -1,0 +1,21 @@
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+numeros_positivos = 0
+media_positiva = []
+
+numeros = [a, b, c, d, e, f]
+
+for numero in numeros:
+    if numero > 0:
+        numeros_positivos += 1
+        media_positiva.append(numero)
+print(f'{numeros_positivos}' + ' valores positivos')
+
+avarage = sum(media_positiva) / len(media_positiva)
+
+print(f'{avarage:.1f}')
+
