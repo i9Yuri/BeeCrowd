@@ -1,0 +1,11 @@
+valor = 0
+posição = 0
+
+for i in range (1, 101):
+    a = int(input())
+    if a > valor:
+        valor = a
+        posição = i
+
+print(valor)
+print(posição)
