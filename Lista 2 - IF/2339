@@ -1,0 +1,5 @@
+c, p, f = list(map(int, input().split()))
+if f * c > p:
+    print('N')
+else:
+    print('S')
