@@ -1,0 +1,13 @@
+# a, b = initial hour, initial minute
+# c, d = final hour, final minute
+a, b, c, d = list(map(int, input().split()))
+
+duracao = (c * 60 + d) - (a * 60 + b)
+
+if duracao <= 0:
+    duracao += 24 * 60
+
+tempoHr = duracao // 60
+tempoMin = duracao % 60
+
+print(f"O JOGO DUROU {tempoHr} HORA(S) E {tempoMin} MINUTO(S)")
