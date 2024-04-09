@@ -1,0 +1,28 @@
+#salary = a  new salary = b
+a = float(input())
+
+if a<=400:
+    b = a*1.15
+    print(f'Novo salario: {b:.2f}')
+    print(f'Reajuste ganho: {(b-a):.2f}')
+    print('Em percentual: 15 %')
+elif a>=400.01 and a<=800:
+    b = a*1.12
+    print(f'Novo salario: {b:.2f}')
+    print(f'Reajuste ganho: {(b-a):.2f}')
+    print('Em percentual: 12 %')
+elif a>=800.01 and a<=1200:
+    b = a*1.1
+    print(f'Novo salario: {b:.2f}')
+    print(f'Reajuste ganho: {(b-a):.2f}')
+    print('Em percentual: 10 %')
+elif a>=1200.01 and a<=2000:
+    b = a*1.07
+    print(f'Novo salario: {b:.2f}')
+    print(f'Reajuste ganho: {(b-a):.2f}')
+    print('Em percentual: 7 %')
+else:
+    b = a*1.04
+    print(f'Novo salario: {b:.2f}')
+    print(f'Reajuste ganho: {(b-a):.2f}')
+    print('Em percentual: 4 %')
