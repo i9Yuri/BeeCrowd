@@ -1,0 +1,8 @@
+X = int(input())
+
+if X % 2 == 0:
+    for num in range(X+1, X + 13, 2):
+        print(num)
+else:
+    for num in range(X, X + 11, 2):
+        print(num)
